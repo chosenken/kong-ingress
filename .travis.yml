@@ -5,24 +5,11 @@ services:
 
 language: go
 
-go_import_path: kolihub.io/kong-ingress
-
-notifications:
-  email: true
+go_import_path: github.com/chosenken/kong-ingress
 
 go:
   - 1.9
 
-after_success:
-  - if [[ "$TRAVIS_BRANCH" == "master" || "$TRAVIS_TAG" ]]; then
-    make docker-build docker-push;
-    else
-    VERSION=development make docker-build docker-push;
-    fi
-
 script:
   - make test build
-
-notifications:
-  slack: koliproject:gFSQJ91w1EGMmBjEPn26PVw6
 
