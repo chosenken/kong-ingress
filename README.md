@@ -1,6 +1,6 @@
 # Kong Ingress
 
-[![Build Status](https://travis-ci.org/koli/kong-ingress.svg?branch=master)](https://travis-ci.org/koli/kong-ingress)
+[![Build Status](https://travis-ci.org/chosenken/kong-ingress.svg?branch=master)](https://travis-ci.org/chosenken/kong-ingress)
 
 It's a Kubernetes [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/) Controller for [Kong](https://getkong.org/about) which manages Kong apis for each existent host on ingresses resources.
 
