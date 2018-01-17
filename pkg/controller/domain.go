@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"kolihub.io/kong-ingress/pkg/kong"
+	"github.com/chosenken/kong-ingress/pkg/kong"
 
 	"github.com/golang/glog"
 

@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"kolihub.io/kong-ingress/pkg/kong"
+	"github.com/chosenken/kong-ingress/pkg/kong"
 
 	"k8s.io/api/core/v1"
 	v1beta1 "k8s.io/api/extensions/v1beta1"

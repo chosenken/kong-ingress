@@ -17,9 +17,9 @@ SHELL ?= /bin/bash
 # Common flags passed into Go's linker.
 GOTEST := go test --race -v
 LDFLAGS := "-s -w \
--X kolihub.io/kong-ingress/pkg/version.version=${VERSION} \
--X kolihub.io/kong-ingress/pkg/version.gitCommit=${GITCOMMIT} \
--X kolihub.io/kong-ingress/pkg/version.buildDate=${DATE}"
+-X github.com/chosenken/kong-ingress/pkg/version.version=${VERSION} \
+-X github.com/chosenken/kong-ingress/pkg/version.gitCommit=${GITCOMMIT} \
+-X github.com/chosenken/kong-ingress/pkg/version.buildDate=${DATE}"
 
 build:
 	rm -rf ${BINARY_DEST_DIR}

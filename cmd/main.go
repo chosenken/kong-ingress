@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"kolihub.io/kong-ingress/pkg/controller"
-	"kolihub.io/kong-ingress/pkg/controller/monitoring"
-	"kolihub.io/kong-ingress/pkg/kong"
-	"kolihub.io/kong-ingress/pkg/version"
+	"github.com/chosenken/kong-ingress/pkg/controller"
+	"github.com/chosenken/kong-ingress/pkg/controller/monitoring"
+	"github.com/chosenken/kong-ingress/pkg/kong"
+	"github.com/chosenken/kong-ingress/pkg/version"
 
 	"github.com/golang/glog"
 	"github.com/spf13/pflag"
